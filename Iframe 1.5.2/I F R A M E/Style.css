@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+DoorStop {
+ display: block;
+ width: 84.44px;
+ height: 116px;
+}
+
+.ButtonBox {
+ margin-left: auto;
+ margin-right: auto;
+ height: 50px;
+}
+
+.Middle {
+ width: 100%;
+ height: 50px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.Block {
+ display: block;
+}
+
+#Title {
+ padding-top: 5px;
+ padding-bottom: 10px
+}
+
+.Inline {
+ display: inline-block;
+}
+
+#CleanButton, #CleanButton2, .CleanButton3, #CleanP {
+ box-shadow: none !important;
+ text-align: center !important;
+ width: auto;
+ font-family: Lato;
+ font-size: 15px;
+}
+
+#CleanButton, #CleanButton2, .CleanButton3 {
+ background: #ececec;
+}
+
+#CleanButton2, .CleanButton3 {
+ margin-top: 5px;
+ margin-bottom: 0px;
+}
+
+#CleanButton:hover {
+ background: grey;
+}
+
+#CleanButton2:hover {
+ background: grey;
+}
+
+.CleanButton3:hover {
+ background: grey;
+}
+
+#CleanP {
+ margin-top: 3px;
+}
+
+.left {
+ float: left;
+ width: 200px;
+ margin: 10px;
+}
+
+.Right {
+ float: right;
+ width: 200px;
+ margin: 10px;
+}
+
+#Tools:hover {
+ height: 350px;
+ overflow: hidden;
+ width: 484.44px;
+}
+
+#Tools {
+ height: 35px;
+ overflow: hidden;
+ width: 100px;
+ transition-timing-function: cubic-bezier(1, 0.01, 0, 1.01);
+}
+
+#MainTitle, p {
+ background: white;
+ box-shadow: 0 0 20px 5px #00ff1f;
+ border-radius: 5px;
+ width: 100px;
+ text-align: center;
+}
+
+#MainTitle {
+ cursor: pointer;
+ transform: perspective(10px) rotateX(5deg);
+ transition: 2s;
+}
+
+#MainTitle:hover {
+ background: grey;
+}
+
+button, input, iframe, #Tools {
+ color: black;
+ background-color: white;
+ border-radius: 5px;
+ border: white;
+ margin: 5px;
+ transition: 1s;
+ box-shadow: 0 0 20px 5px #00ff1f;
+}
+
+#input {
+ box-shadow: 0 0 20px 5px #00ff1f;
+}
+
+input {
+ box-shadow: none;
+}
+
+body {
+ text-align: -webkit-center;
+ width: 500px;
+}
+
+h1, h2 {
+ font-family: Big Shoulders Text;
+ color: black;
+ margin: 0px;
+}
+
+input {
+ display: inline;
+}
+
+p {
+ padding: 5px;
+ width: 350px;
+}
+
+button {
+ cursor: pointer;
+ transition: 1s;
+ box-shadow: 0 0 20px 5px #00ff1f;
+}
+
+button:hover {
+ background-color: lightgrey;
+}
+
+iframe {
+ transition: 0.1; !important
+}
+
+iframe, button, #input {
+ margin-top: 20px;
+}

@@ -1,0 +1,6 @@
+1: Click on the 3 dots at the top right on your browser.
+2: Go to more tools.
+3: Select extensions.
+4: Turn on developer mode.
+5: Click on load unpacked.
+6: Select the I F R A M E file
